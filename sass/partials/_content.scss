@@ -1,0 +1,17 @@
+@include minMaxWidth(240px, 400px){
+  .Content_minMaxWidth_240px_400px {
+    content: 'ContentMinMaxWidth';
+  }
+}
+
+@include minWidth(200px){
+  .Content_minWidth_200px {
+    content: 'ContentMinWidth';
+  }
+}
+
+@include maxWidth(440px){
+  .Content_maxWidth_440px {
+    content: 'ContentMaxWidth';
+  }
+}

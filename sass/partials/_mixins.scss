@@ -1,0 +1,28 @@
+$ie8: false !default;
+
+@mixin minWidth($minWidth) {
+  @if $ie8 and ($minWidth < $ie8cutOff) { @content; }
+  @else if not $ie8 {
+    @media(min-width: $minWidth){
+      @content;
+    }
+  }
+}
+
+@mixin maxWidth($maxWidth) {
+  @if $ie8 and ($maxWidth > $ie8cutOff) { @content; }
+  @else if not $ie8{
+    @media(min-width: $maxWidth){
+      @content;
+    }
+  }
+}
+
+@mixin minMaxWidth($minWidth, $maxWidth) {
+  @if $ie8 and ($minWidth < $ie8cutOff) and ($maxWidth > $ie8cutOff) { @content; }
+  @else if not $ie8{
+    @media (min-width: $maxWidth) and (max-width: $maxWidth){
+      @content;
+    }
+  }
+}

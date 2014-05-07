@@ -1,0 +1,23 @@
+@include minWidth(200px){
+  .global_minWidth_200px {
+    content: 'minWidth';
+  }
+}
+
+@include maxWidth(440px){
+  .global_maxWidth_440px {
+    content: 'maxWidth';
+  }
+}
+
+@include minMaxWidth(240px, 400px){
+  .global_minMaxWidth_240px_400px {
+    content: 'minMaxWidth';
+  }
+}
+
+@include minWidth(800px){
+  .global_minWidth_800px {
+    content: 'minWidth800';
+  }
+}

@@ -1,0 +1,23 @@
+.global_minWidth_200px {
+  content: 'minWidth';
+}
+
+.global_maxWidth_440px {
+  content: 'maxWidth';
+}
+
+.global_minMaxWidth_240px_400px {
+  content: 'minMaxWidth';
+}
+
+.Content_minMaxWidth_240px_400px {
+  content: 'ContentMinMaxWidth';
+}
+
+.Content_minWidth_200px {
+  content: 'ContentMinWidth';
+}
+
+.Content_maxWidth_440px {
+  content: 'ContentMaxWidth';
+}

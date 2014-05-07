@@ -1,0 +1,20 @@
+@media (min-width: 200px) {
+  .global_minWidth_200px {
+    content: 'minWidth';
+  }
+}
+@media (min-width: 440px) {
+  .global_maxWidth_440px {
+    content: 'maxWidth';
+  }
+}
+@media (min-width: 400px) and (max-width: 400px) {
+  .global_minMaxWidth_240px_400px {
+    content: 'minMaxWidth';
+  }
+}
+@media (min-width: 800px) {
+  .global_minWidth_800px {
+    content: 'minWidth800';
+  }
+}
